@@ -1,0 +1,5 @@
+The plan is to make a program that randomly generates movie credits.
+Random full names of cast and crew.
+Random roles that they fill.
+Semi ordered structure, i.e. main actors, director, executive producer(s)... random cast, soundtrack, logos
+
