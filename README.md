@@ -2,6 +2,8 @@
 
 Creates a realistic continuous movie credit sequence with random content.
 
+Example of what this script does: https://gfycat.com/querulousmajoribis
+
 ## Install
 
 This will just be a .exe file, so no install neccessary.
