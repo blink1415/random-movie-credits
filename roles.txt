@@ -1,32 +1,47 @@
 #Prefixes
 Associate
-Executive
 Primary
 Secondary
 Tertiary
 Assistant
 ---
-#Crew
-Producer
-Director
-Screenwriter
-Production Designer
-Production Manager
-Art Director
-Costume Designer
-Cinematographer
-Editor
-Music Supervisor
-Set Designer
-Sound Designer
-Prop Master
-Makeup Artist
-Editor
-Composer
-Line Producer
-Gaffer
-Grip
-Sound Recordist
+#Film Crew
+*Director
+*Producer
+Executive Producer
+*Line Producer
+Production Assistant
+*Production Manager
+*Unit Manager
+*Production Coordinator
+First Assistant Director
+Second Assistant Director
+*Production Accountant
+*Location Manager
+*Location Scout
+Location Assistant
+*Social Publicist
+*Legal Councillor
+*System Administrator
+*Script Supervisor
+*Casting Director
+*Cinematographer
+*Camera Operator
+*Potographer
+First Assistant Camera
+Second Assistant Camera
+Digital Imaging Tech.
+*Steadicam Operator
+Motion Control Tech.
+*Gaffer
+*Best Boy
+*Lighting Tech.
+*Grip
+*Key Grip
+*Dolly Grip
+Production Sound Mixer
+*Boom Operator
+Second Assistant Sound
 ---
 #Actors
 Henchman #1
