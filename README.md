@@ -22,3 +22,7 @@ roles.txt has additional rules since multiple types of roles are tracked in that
 ## Contributing
 
 PRs accepted.
+
+## License
+
+Released under the GNU GPLv3.
