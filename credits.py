@@ -73,6 +73,10 @@ print("{:<30} {:<30}".format("Role", "Name"))
 
 print(chr(27) + "[2J")
 
+space = ""
+for x in range(0, 30):
+    space += " "
+
 for role in roles:
     plural = random.randint(0,3) == 0
     plural_s = ""
@@ -86,7 +90,7 @@ for role in roles:
 
         
 
-        print("{:<30} {:<30}".format(role.replace("*", "") + plural_s, output))
+        print(space + "{:<40} {:<40}".format((role.replace("*", "") + plural_s).rjust(40), output))
         if plural:
             count = random.randint(1,4)
             for i in range(0,count):
@@ -95,7 +99,7 @@ for role in roles:
                 for n in name:
                     output += n + " "
 
-                print("{:<30} {:<30}".format("", output))
+                print(space + "{:<40} {:<40}".format("", output))
 
         time.sleep(0.5)
         
@@ -111,7 +115,7 @@ for role in roles:
             for n in name:
                 output += n + " "
 
-            print("{:<30} {:<30}".format(prefixed_role.replace("*", ""), output))
+            print(space + "{:<40} {:<40}".format((prefixed_role.replace("*", "")).rjust(40), output))
             time.sleep(0.5)
     else:
 
@@ -120,6 +124,6 @@ for role in roles:
         for n in name:
             output += n + " "
 
-        print("{:<30} {:<30}".format(role.replace("*", ""), output))
+        print(space + "{:<40} {:<40}".format((role.replace("*", "")).rjust(40), output))
         time.sleep(0.5)
     print()
