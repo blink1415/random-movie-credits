@@ -41,9 +41,10 @@ def random_name():
         second_name = random.choice(firstnames)
         while second_name == name[0]:
             second_name = random.choice(firstnames)
-        if random.randint(0, 10) > 7:
+        if random.randint(0, 10) >= 6:
             second_name = second_name[0] + "."
-        elif random.randint(0, 10) > 8:
+            name.append(second_name)
+        elif random.randint(0, 10) > 7:
             name[0] += "-" + second_name
         else:
             name.append(second_name)
@@ -74,7 +75,7 @@ print("{:<30} {:<30}".format("Role", "Name"))
 print(chr(27) + "[2J")
 
 space = ""
-for x in range(0, 30):
+for x in range(0, 35):
     space += " "
 
 for role in roles:
@@ -126,4 +127,13 @@ for role in roles:
 
         print(space + "{:<40} {:<40}".format((role.replace("*", "")).rjust(40), output))
         time.sleep(0.5)
+    print()
+for x in range(0,5):
+    time.sleep(0.5)
+    print()
+
+print(space + "{:<40} {:<40}".format("The".rjust(40), "End"))
+
+for x in range(0,15):
+    time.sleep(0.5)
     print()
