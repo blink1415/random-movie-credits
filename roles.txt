@@ -1,0 +1,33 @@
+#Prefixes
+Associate
+Executive
+Primary
+Secondary
+Tertiary
+Assistant
+---
+#Crew
+Producer
+Director
+Screenwriter
+Production Designer
+Production Manager
+Art Director
+Costume Designer
+Cinematographer
+Editor
+Music Supervisor
+Set Designer
+Sound Designer
+Prop Master
+Makeup Artist
+Editor
+Composer
+Line Producer
+Gaffer
+Grip
+Sound Recordist
+---
+#Actors
+Henchman #1
+Henchman #2
