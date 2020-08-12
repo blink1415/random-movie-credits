@@ -6,9 +6,11 @@ Associate
 Assistant
 Senior
 Junior
+Supervising
 ---
 #Film Crew
 *Director
+!Production
 *Producer
 Executive Producer
 *Line Producer
@@ -27,6 +29,7 @@ Location Assistant
 *System Administrator
 *Script Supervisor
 *Casting Director
+!Camera
 *Cinematographer
 *Camera Operator
 *Potographer
@@ -44,6 +47,32 @@ Motion Control Tech.
 Production Sound Mixer
 *Boom Operator
 Second Assistant Sound
+*Production Designer
+!Art Team
+*Art Director
+*Standby Art Director
+*Set Designer
+*Illustrator
+*Graphic Artist
+*Set Decorator
+*Buyer
+*Leadman
+*Set Dresser
+*Greensman
+*Construction Coordinator
+*Carpenter
+*Propmaker
+*Scenic Artist
+Weapons Master
+*Costume Designer
+*Costume Supervisor
+Key Costumer
+*Breakdown Artist
+*Cutter
+Key Make-up Artist
+SFX Make-up Artist
+Make-up Supervisor
+Make-up Artist
 ---
 #Actors
 Henchman #1

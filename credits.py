@@ -79,6 +79,14 @@ for x in range(0, 35):
     space += " "
 
 for role in roles:
+    if role[0] == "!":
+        time.sleep(0.5)
+        print()
+        time.sleep(0.5)
+        print(role.replace("!", "").center(len(space)*2 + 80))
+        time.sleep(0.5)
+        continue
+
     plural = random.randint(0,3) == 0
     plural_s = ""
     if plural:
