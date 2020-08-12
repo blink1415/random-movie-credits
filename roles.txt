@@ -1,9 +1,11 @@
 #Prefixes
 Associate
-Primary
-Secondary
-Tertiary
+*1Primary
+*2Secondary
+*3Tertiary
 Assistant
+Senior
+Junior
 ---
 #Film Crew
 *Director
