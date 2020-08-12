@@ -99,7 +99,8 @@ for role in roles:
                 output = ""
                 for n in name:
                     output += n + " "
-
+                
+                time.sleep(0.5)
                 print(space + "{:<40} {:<40}".format("", output))
 
         time.sleep(0.5)
@@ -110,6 +111,8 @@ for role in roles:
             name = random_name()
             
             prefix = random.choice(prefix_choices)
+            if prefix == "Assistant" and random.randint(0,10) == 10:
+                prefix += " to the"
             prefixed_role = prefix + " " + role
 
             output = ""
